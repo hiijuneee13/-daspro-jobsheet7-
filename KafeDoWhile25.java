@@ -15,7 +15,7 @@ public class KafeDoWhile25 {
             namaPelanggan = sc.nextLine();
 
             if (namaPelanggan.equalsIgnoreCase("batal")) {
-                System.out.println("Transaksi dibatalkan.");
+                System.out.println("Transaksi dibatalkan!.");
                 break;
             }
 
