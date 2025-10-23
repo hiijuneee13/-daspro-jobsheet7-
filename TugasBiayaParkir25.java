@@ -38,7 +38,7 @@ public class TugasBiayaParkir25 {
             }
 
             int bayar;
-            if (jam > 5) {
+            if (jam >= 5) {
                 bayar = tarifMaks;
             } else {
                 bayar = (jenis == 1) ? jam * tarifMobilPerJam : jam * tarifMotorPerJam;
