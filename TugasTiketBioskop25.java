@@ -8,7 +8,7 @@ public class TugasTiketBioskop25 {
         long totalPendapatan = 0;
 
         System.out.println("Masukkan jumlah tiket yang dibeli setiap pelanggan.");
-        System.out.println("Masukkan 0 untuk selesai (akhiri hari).");
+        System.out.println("Masukkan 0 untuk selesai.");
 
         while (true) {
             System.out.print("Masukkan jumlah tiket pelanggan (0 untuk selesai): ");
